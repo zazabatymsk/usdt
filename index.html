@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USDT Token Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.5.2/web3.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>USDT Token Interface</h1>
+        <div class="input-group">
+            <input type="text" id="address" placeholder="Введите адрес" />
+            <button id="getBalanceButton">Получить баланс</button>
+            <p id="balance"></p>
+        </div>
+        <div class="input-group">
+            <button id="getTokenPriceButton">Получить цену токена</button>
+            <p id="tokenPrice">Цена токена: загрузка...</p>
+        </div>
+    </div>
+</body>
+</html>
